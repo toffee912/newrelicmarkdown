@@ -1,13 +1,19 @@
-Epics-NewRelic-Monitoring
-Monitoring apps that Epics owns with New Relic
+# H1 Epics-NewRelic-Monitoring
 
-**Our team on account '11576 Cox - Manheim'**
+
+**The Epics team is using account: '11576 Cox - Manheim'**
 
 # **Naming convention:**
 
-Synthetic test naming format 'epics-(service name in github)-(endpoint type)-(environment)'  examples
+Synthetic test naming format:
+*'epics-(service name in github)-(endpoint type)-(environment)'*  
 
-epics-NotesWebService-aws-prod      epics-NotesWebService-ping-prodAlert Conditions and Policies format
+**Examples**
+1. epics-NotesWebService-aws-prod      
+2. epics-NotesWebService-ping-prod
+
+
+epics-NotesWebService-ping-prodAlert Conditions and Policies format
 
 Policy format 'epics-(env)'
 
