@@ -1,4 +1,4 @@
-# Epics-NewRelic-Monitoring
+# Epics NewRelic Monitoring
 
 
 **The Epics team is using account: '11576 Cox - Manheim'**
@@ -8,14 +8,12 @@
 Synthetic test naming format:
 *'epics-(service name in github)-(endpoint type)-(environment)'*  
 
-**Examples**
+**Examples:**
 1. epics-NotesWebService-aws-prod      
 2. epics-NotesWebService-ping-prod
 
-
-epics-NotesWebService-ping-prodAlert Conditions and Policies format
-
-Policy format 'epics-(env)'
+Alert Conditions and Policies format:
+**Policy format:** *'epics-(env)'*
 
 epics-prodAlert format 'epics-(web service github name)-(monitor target)-(env)'
 
