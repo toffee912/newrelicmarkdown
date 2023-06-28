@@ -8,6 +8,8 @@
 Synthetic test naming format:
 *'epics-(<span style="color:red;">service name in github</span>)-(endpoint type)-(environment)'*  
 
+<span style="color:red;">service name in github</span>
+
 **Examples:**
 1. epics-NotesWebService-aws-prod      
 2. epics-NotesWebService-ping-prod
