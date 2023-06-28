@@ -6,7 +6,7 @@
 ### **Naming convention:**
 
 Synthetic test naming format:
-*'epics-(service name in github)-(endpoint type)-(environment)'*  
+*'epics-(<font color="red">service name in github</font>)-(endpoint type)-(environment)'*  
 
 **Examples:**
 1. epics-NotesWebService-aws-prod      
