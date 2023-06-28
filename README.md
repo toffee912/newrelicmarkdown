@@ -1,9 +1,9 @@
-# H1 Epics-NewRelic-Monitoring
+# Epics-NewRelic-Monitoring
 
 
 **The Epics team is using account: '11576 Cox - Manheim'**
 
-# **Naming convention:**
+### **Naming convention:**
 
 Synthetic test naming format:
 *'epics-(service name in github)-(endpoint type)-(environment)'*  
