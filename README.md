@@ -14,7 +14,7 @@ epics-NotesWebService-aws-prod
 epics-NotesWebService-ping-prod
 <br>
 
-### **Alert Conditions and Policy format:**
+**Alert Conditions and Policy format:**
 
 **Alert Conditions format:**
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
