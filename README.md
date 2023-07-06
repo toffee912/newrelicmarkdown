@@ -9,7 +9,7 @@
 <br> *'epics-(service name in github)-(endpoint type)-(environment)'*  
 
 |Examples|
-|------------------|
+|--------|
 epics-NotesWebService-aws-prod      
 epics-NotesWebService-ping-prod
 <br>
@@ -20,7 +20,7 @@ epics-NotesWebService-ping-prod
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
 
 |Examples|
-|------------------|
+|--------|
 epics-NotesWebService-synthetic-prod
 <br>
 
@@ -28,7 +28,7 @@ epics-NotesWebService-synthetic-prod
 <br>*'epics-(env)'*
 
 |Examples|
-|------------------|
+|--------|
 Fatih - Add an example here!
 <br>
 
