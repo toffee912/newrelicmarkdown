@@ -32,21 +32,23 @@
 
 Synthetic tests will have the following verifications:
 
-- Elastic Beanstalk (AWS) and Fargate (AWS) endpoints, as well as F5 endpoints like **CheckoutWebService**, will only be checked with a script written as a synthetic test.
-- APM data will not be used for alerting at this time due to inconsistent alerting.
-- Runscope is preferred for setting up tests to check the health of the service until the team becomes more familiar with APM data.
-
-
-| Syntax | Description |
-| ------------------| -------------------|
+| Description |
+| ------------------|
+Elastic Beanstalk (AWS) and Fargate (AWS) endpoints, as well as F5 endpoints like **CheckoutWebService**, will only be checked with a script written as a synthetic test.
+APM data will not be used for alerting at this time due to inconsistent alerting.
+Runscope is preferred for setting up tests to check the health of the service until the team becomes more familiar with APM data.
 Scripts are written in JavaScript using the HTTP client $http and the GOT module. Use Node 10.0 legacy during setup.
 Service credentials are securely stored and called them from synthetic requests.
 Synthetic monitors can be set to run every 15 minutes.
 The epics_awsgdmowner minion is used for AWS services, and epics_plminion_onprem is used for on-prem.
 
+<br>
 APM data will have the following verifications:
 
-- Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. Synthetic tests will not be used for this purpose to avoid duplicate work.
+| Description |
+| ------------------|
+Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. 
+Synthetic tests will not be used for this purpose to avoid duplicate work.
 
 ## **Alerts:**
 
