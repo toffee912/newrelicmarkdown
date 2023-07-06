@@ -52,7 +52,7 @@ Synthetic tests will not be used for this purpose to avoid duplicate work.
 
 ## **Alerts:**
 
-Alerts for synthetics will utilize the following workflow: *** PagerDuty, Towtruck Email, and Slack *** <br>
+Alerts for synthetics will utilize the following workflow: **PagerDuty, Towtruck Email, and Slack** <br>
 **Alerts based on APM data will be sent to the Slack channel.**
 <br>
 
