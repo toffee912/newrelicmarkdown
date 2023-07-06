@@ -6,7 +6,7 @@
 ## **Naming convention:**
 
 Synthetic test naming format:
-*'epics-(service name in github)-(endpoint type)-(environment)'*  
+<br>*'epics-(service name in github)-(endpoint type)-(environment)'*  
 
 
 **Examples:**
@@ -16,6 +16,7 @@ Synthetic test naming format:
 Alert Conditions and Policies format:
 **Policy format:** *'epics-(env)'*
 
+**Examples:**
 epics-prodAlert format 'epics-(web service github name)-(monitor target)-(env)'
 
 epics-NotesWebService-synthetic-prod
