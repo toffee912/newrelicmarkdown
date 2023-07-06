@@ -47,12 +47,13 @@ Fatih - Add an example here!
 **APM data will have the following verifications:**
 - Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. 
 - NOTE: Synthetic tests will not be used for this purpose to avoid duplicate work.
+<br>
 
 ## **Alerts:**
 
 Alerts for synthetics will utilize the following workflow: **PagerDuty, Towtruck Email, and Slack** <br>
 **Alerts based on APM data will be sent only to the Slack channel.**
-<br> <br>
+<br>
 
 ## **Creating Synthetic Monitors:**
 
