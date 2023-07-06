@@ -5,13 +5,13 @@
 
 ### **Naming convention:**
 
-**Synthetic test naming format:**
+**Synthetic Test naming format:**
 <br>*'epics-(service name in github)-(endpoint type)-(environment)'*  
 
 **Examples:**
 - epics-NotesWebService-aws-prod      
 - epics-NotesWebService-ping-prod
-<br>
+
 
 ### **Alert Conditions and Policies format:**
 <br>
