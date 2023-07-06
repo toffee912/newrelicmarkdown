@@ -10,8 +10,8 @@
 
 |Examples|
 |--------|
-epics-NotesWebService-aws-prod      
-epics-NotesWebService-ping-prod
+|epics-NotesWebService-aws-prod| 
+|epics-NotesWebService-ping-prod|
 <br>
 
 **Alert Conditions and Policy format:**
@@ -21,7 +21,7 @@ epics-NotesWebService-ping-prod
 
 |Examples|
 |--------|
-epics-NotesWebService-synthetic-prod
+|epics-NotesWebService-synthetic-prod|
 <br>
 
 **Policy format:** 
@@ -29,7 +29,7 @@ epics-NotesWebService-synthetic-prod
 
 |Examples|
 |--------|
-Fatih - Add an example here!
+|Fatih - Add an example here!|
 <br>
 
 ## **Synthetic, APM, and Alert Strategy:**
