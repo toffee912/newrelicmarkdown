@@ -47,8 +47,8 @@ APM data will have the following verifications:
 
 | Description |
 | ------------------|
-- Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. 
-- Synthetic tests will not be used for this purpose to avoid duplicate work.
+Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. 
+Synthetic tests will not be used for this purpose to avoid duplicate work.
 
 ## **Alerts:**
 
