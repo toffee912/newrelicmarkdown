@@ -20,7 +20,7 @@
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
 
 |Examples|
-|--------|
+|:--------|
 |epics-NotesWebService-synthetic-prod|
 <br>
 
@@ -28,7 +28,7 @@
 <br>*'epics-(env)'*
 
 |Examples|
-|--------|
+|:--------|
 |Fatih - Add an example here!|
 <br>
 
