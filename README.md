@@ -6,24 +6,21 @@
 ### **Naming convention:**
 
 **Synthetic Test naming format:**
-<br>*'epics-(service name in github)-(endpoint type)-(environment)'*  
+<br> *'epics-(service name in github)-(endpoint type)-(environment)'*  
 
 **Examples:**
 - epics-NotesWebService-aws-prod      
 - epics-NotesWebService-ping-prod
-
-
-### **Alert Conditions and Policies format:**
 <br>
 
-**Alert Conditions**
-<br> 
+### **Alert Conditions and Policy format:**
+<br>
+
+**Alert Conditions format:**
+<br> *'epics-(web service github name)-(monitor target)-(env)'*
 
 **Examples:**
-epics-prodAlert format 'epics-(web service github name)-(monitor target)-(env)'
-
-epics-NotesWebService-synthetic-prod
-
+- epics-NotesWebService-synthetic-prod
 
 
 **Policy format:** 
