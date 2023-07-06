@@ -52,11 +52,13 @@ Synthetic tests will not be used for this purpose to avoid duplicate work.
 
 ## **Alerts:**
 
-Alerts for synthetics will utilize the following workflow: PagerDuty, Towtruck email, and Slack channel.
+Alerts for synthetics will utilize the following workflow: *** PagerDuty, Towtruck Email, and Slack ***
+**Alerts based on APM data will be sent to the Slack channel.**
 
-Alerts based on APM data will be sent to the Slack channel.
-
+<br>
 ## **Creating Synthetic Monitors:**
+
+The below text should be replaced with the details from this document: [Create a New Relic Synthetic](https://coxautoinc.sharepoint.com/:w:/r/sites/cais_EpICS_clubhouse/_layouts/15/Doc.aspx?sourcedoc=%7BAC4068AF-D7EA-48DC-AD28-ED081EDB47B9%7D&file=New_Relic_Synthetic_Creation.docx&action=default&mobileredirect=true)
 
 * Navigate to the Synthetic Monitoring tab and click the Create Monitor button in New Relic.
 * Select 'Endpoint Availability' as the scripted monitor type. For basic pinging, you can select 'Ping'.
