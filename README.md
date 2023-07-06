@@ -14,7 +14,6 @@
 <br>
 
 ### **Alert Conditions and Policy format:**
-<br>
 
 **Alert Conditions format:**
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
@@ -27,22 +26,22 @@
 <br>*'epics-(env)'*
 
 **Examples:**
-
+- Fatih - Add an example here!
 
 ## **Synthetic, APM, and Alert Strategy:**
 
 Synthetic tests will have the following verifications:
 
-- Elastic Beanstalk (AWS) and Fargate (AWS) endpoints, as well as F5 endpoints like CheckoutWebService, will only be checked with a script written as a synthetic test.
+- Elastic Beanstalk (AWS) and Fargate (AWS) endpoints, as well as F5 endpoints like **CheckoutWebService**, will only be checked with a script written as a synthetic test.
 - APM data will not be used for alerting at this time due to inconsistent alerting.
 - Runscope is preferred for setting up tests to check the health of the service until the team becomes more familiar with APM data.
 
-Scripts are written in JavaScript using the HTTP client $http and the GOT module. To set up, Node 10.0 legacy is used.
 
-The team decided to store service credentials securely and call them from synthetic requests, which has been successful.
-
+| Syntax | Description |
+| ------------------| -------------------|
+Scripts are written in JavaScript using the HTTP client $http and the GOT module. Use Node 10.0 legacy during setup.
+Service credentials are securely stored and called them from synthetic requests.
 Synthetic monitors can be set to run every 15 minutes.
-
 The epics_awsgdmowner minion is used for AWS services, and epics_plminion_onprem is used for on-prem.
 
 APM data will have the following verifications:
