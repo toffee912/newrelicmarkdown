@@ -8,7 +8,7 @@
 **Synthetic Test naming format:**
 <br> *'epics-(service name in github)-(endpoint type)-(environment)'*  
 
-|Examples |
+|Examples|
 |------------------|
 epics-NotesWebService-aws-prod      
 epics-NotesWebService-ping-prod
@@ -19,7 +19,7 @@ epics-NotesWebService-ping-prod
 **Alert Conditions format:**
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
 
-|Examples |
+|Examples|
 |------------------|
 epics-NotesWebService-synthetic-prod
 <br>
@@ -27,7 +27,7 @@ epics-NotesWebService-synthetic-prod
 **Policy format:** 
 <br>*'epics-(env)'*
 
-|Examples |
+|Examples|
 |------------------|
 Fatih - Add an example here!
 <br>
