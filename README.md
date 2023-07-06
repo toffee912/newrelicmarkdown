@@ -29,26 +29,37 @@
 **Examples:**
 
 
-Synthetic, APM  and Alert strategy:
+## **Synthetic, APM, and Alert Strategy:**
 
-# **Synthetic tests will have these verifications:**
+Synthetic tests will have the following verifications:
 
-Elastic Beanstalk (aws) and Fargate(aws) endpoints  and F5 endpoints i.e. CheckoutWebService,  will only be checked with a script written as a synthetic. 
-We don't feel comfortable with using APM data at this time so we are choosing not to use it for alerting.  At this time we cant get consisting alerting from APM data.
-We are also very comfortable with Runscope and have more confidence in setting our tests up to model that method of checking the health of the service.  Once we get more familiar with APM data we can evaluate how to use it.
+- Elastic Beanstalk (AWS) and Fargate (AWS) endpoints, as well as F5 endpoints like CheckoutWebService, will only be checked with a script written as a synthetic test.
+- APM data will not be used for alerting at this time due to inconsistent alerting.
+- Runscope is preferred for setting up tests to check the health of the service until the team becomes more familiar with APM data.
 
-Scripts are written in JavaScript and http client $http GOT module, to setup we use Node 10.0 legacy
+Scripts are written in JavaScript using the HTTP client $http and the GOT module. To set up, Node 10.0 legacy is used.
 
-Team decided to store our service credentials in secure credentials, we call that from synthetic request and it worked
+The team decided to store service credentials securely and call them from synthetic requests, which has been successful.
 
-We can monitor synthetic monitor every 15 mins
-We use epics_awsgdmowner minion for aws services and epics_plminion_onprem for on-prem
+Synthetic monitors can be set to run every 15 minutes.
 
+The epics_awsgdmowner minion is used for AWS services, and epics_plminion_onprem is used for on-prem.
 
-# **APM data will have these verifications:**
+APM data will have the following verifications:
 
-For verifying our on prem nodes we will set up Alerts off of the APM data.  Since nodes are not as critical as a customer facing endpoint we fill ok with using APM data.   We won't use synthetics bcse this is duplicate work of what the APM data provides.
+- Alerts based on APM data will be set up to verify on-prem nodes. As nodes are not as critical as customer-facing endpoints, using APM data for alerts is acceptable. Synthetic tests will not be used for this purpose to avoid duplicate work.
 
-# **Alerts:**
+## **Alerts:**
 
-we will have alerts that point to our synthetics and they will use this work flow pagerduty, towtruck email and slack channelwe will alerts that point to APM data and this work flow will be slack channel
+Alerts for synthetics will utilize the following workflow: PagerDuty, Towtruck email, and Slack channel.
+
+Alerts based on APM data will be sent to the Slack channel.
+
+## **Creating Synthetic Monitors:**
+
+* Navigate to the Synthetic Monitoring tab and click the Create Monitor button in New Relic.
+* Select 'Endpoint Availability' as the scripted monitor type. For basic pinging, you can select 'Ping'.
+* Choose the 'Account: 11576 - Cox - Manheim' and runtime Node 10 legacy. Select the desired frequency for running the test and provide a name.
+* Depending on the type of service you're monitoring (on-prem or AWS), select one of the EpICS minions.
+* Write the script in the console and validate that you're receiving successful requests from the service.
+* Store service credentials and tokens in 'Secure Credentials' in New Relic instead of hard-coding them in the script.
