@@ -11,10 +11,10 @@
 **Examples:**
 - epics-NotesWebService-aws-prod      
 - epics-NotesWebService-ping-prod
-
-**Alert Conditions and Policies format:**
 <br>
 
+### **Alert Conditions and Policies format:**
+<br>
 
 **Alert Conditions**
 <br> 
