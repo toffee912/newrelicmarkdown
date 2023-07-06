@@ -53,13 +53,15 @@ Synthetic tests will not be used for this purpose to avoid duplicate work.
 ## **Alerts:**
 
 Alerts for synthetics will utilize the following workflow: **PagerDuty, Towtruck Email, and Slack** <br>
-**Alerts based on APM data will be sent to the Slack channel.**
-<br>
+**Alerts based on APM data will be sent only to the Slack channel.**
+<br> <br>
 
 ## **Creating Synthetic Monitors:**
 
-The below text should be replaced with the details from this document: [Create a New Relic Synthetic](https://coxautoinc.sharepoint.com/:w:/r/sites/cais_EpICS_clubhouse/_layouts/15/Doc.aspx?sourcedoc=%7BAC4068AF-D7EA-48DC-AD28-ED081EDB47B9%7D&file=New_Relic_Synthetic_Creation.docx&action=default&mobileredirect=true) 
+[How to Create a New Relic Synthetic](https://coxautoinc.sharepoint.com/:w:/r/sites/cais_EpICS_clubhouse/_layouts/15/Doc.aspx?sourcedoc=%7BAC4068AF-D7EA-48DC-AD28-ED081EDB47B9%7D&file=New_Relic_Synthetic_Creation.docx&action=default&mobileredirect=true) 
 
+
+The below text can be deleted
 * Navigate to the Synthetic Monitoring tab and click the Create Monitor button in New Relic.
 * Select 'Endpoint Availability' as the scripted monitor type. For basic pinging, you can select 'Ping'.
 * Choose the 'Account: 11576 - Cox - Manheim' and runtime Node 10 legacy. Select the desired frequency for running the test and provide a name.
