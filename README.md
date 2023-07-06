@@ -3,15 +3,15 @@
 
 **The Epics team is using account: '11576 Cox - Manheim'**
 
-### **Naming convention:**
+## **Naming convention:**
 
 Synthetic test naming format:
-*'epics-(<span style="color:red;">service name in github</span>)-(endpoint type)-(environment)'*  
+*'epics-(service name in github)-(endpoint type)-(environment)'*  
 
 
 **Examples:**
-1. epics-NotesWebService-aws-prod      
-2. epics-NotesWebService-ping-prod
+- epics-NotesWebService-aws-prod      
+- epics-NotesWebService-ping-prod
 
 Alert Conditions and Policies format:
 **Policy format:** *'epics-(env)'*
