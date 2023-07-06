@@ -3,7 +3,7 @@
 
 **The Epics team is using account: '11576 Cox - Manheim'**
 
-### **Naming convention:**
+## **Naming convention:**
 
 **Synthetic Test naming format:**
 <br> *'epics-(service name in github)-(endpoint type)-(environment)'*  
@@ -53,7 +53,7 @@ Fatih - Add an example here!
 
 Alerts for synthetics will utilize the following workflow: **PagerDuty, Towtruck Email, and Slack** <br>
 **Alerts based on APM data will be sent only to the Slack channel.**
-<br>
+<br> <br>
 
 ## **Creating Synthetic Monitors:**
 
