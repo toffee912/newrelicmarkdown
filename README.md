@@ -3,7 +3,7 @@
 
 **The Epics team is using account: '11576 Cox - Manheim'**
 
-**Naming convention:**
+### **Naming convention:**
 
 **Synthetic test naming format:**
 <br>*'epics-(service name in github)-(endpoint type)-(environment)'*  
