@@ -60,8 +60,6 @@ Alerts for synthetics will utilize the following workflow: **PagerDuty, Towtruck
 [How to Create a New Relic Synthetic](https://coxautoinc.sharepoint.com/:w:/r/sites/cais_EpICS_clubhouse/_layouts/15/Doc.aspx?sourcedoc=%7BAC4068AF-D7EA-48DC-AD28-ED081EDB47B9%7D&file=New_Relic_Synthetic_Creation.docx&action=default&mobileredirect=true) 
 
 
-[go](https://coxautoinc.sharepoint.com/:w:/r/sites/cais_EpICS_clubhouse/_layouts/15/Doc.aspx?sourcedoc=%7BAC4068AF-D7EA-48DC-AD28-ED081EDB47B9%7D&file=New_Relic_Synthetic_Creation.docx&action=default&mobileredirect=true){:target="_blank"}
-
 The below text can be deleted (because the URL above will point to the full document)
 * Navigate to the Synthetic Monitoring tab and click the Create Monitor button in New Relic.
 * Select 'Endpoint Availability' as the scripted monitor type. For basic pinging, you can select 'Ping'.
