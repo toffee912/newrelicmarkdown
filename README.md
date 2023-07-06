@@ -12,22 +12,24 @@
 |------------------|
 epics-NotesWebService-aws-prod      
 epics-NotesWebService-ping-prod
-<br>
+
 
 ### **Alert Conditions and Policy format:**
 
 **Alert Conditions format:**
 <br> *'epics-(web service github name)-(monitor target)-(env)'*
 
-**Examples:**
-- epics-NotesWebService-synthetic-prod
+|Examples |
+|------------------|
+epics-NotesWebService-synthetic-prod
 
 
 **Policy format:** 
 <br>*'epics-(env)'*
 
-**Examples:**
-- Fatih - Add an example here!
+|Examples |
+|------------------|
+Fatih - Add an example here!
 
 ## **Synthetic, APM, and Alert Strategy:**
 
